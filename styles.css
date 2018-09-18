@@ -1,0 +1,263 @@
+body{
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+}    
+.Enter2{
+    border-radius: 09px;
+    box-shadow: 5px;
+    background-color: silver;   
+    
+
+}
+
+
+h1{   
+    text-align: center
+}
+
+/*small size such as a phone*/
+@media only screen and (min-width:320px){
+   body{
+       margin-left: 0.2em;
+   }
+    .Enter1 {
+        margin-left: 10em;
+        border: blue;
+        padding-left: 20px;
+        float: left;
+        width: 200px;
+        height: 300px;
+        display: none;
+        
+    }
+    .Enter2 {
+        
+        border: blue;
+        margin-left: 0px;
+        float: left;
+        width: 300px;
+        height: 300px;
+        padding-top: 3em;
+        padding-left: 0.5em;
+        padding-right: 0.5em
+    }
+    input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border-radius: 9px;
+        
+    }
+    input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border-radius: 9px;
+
+    }
+
+    input[type=Enter] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border-radius: 9px;
+}
+
+@media only screen and (min-width:375px){
+    body{
+        margin-left: 0.2em;
+    }
+     .Enter1 {
+         margin-left: 10em;
+         border: blue;
+         padding-left: 20px;
+         float: left;
+         width: 200px;
+         height: 300px;
+         display: none;
+         
+     }
+     .Enter2 {
+         
+         border: blue;
+         margin-left: 20px;
+         float: left;
+         width: 300px;
+         height: 300px;
+        
+         padding-top: 3em;
+         padding-left: 0.5em;
+         padding-right: 0.5em
+     }
+     input[type=text] {
+         width: 100%;
+         padding: 12px 20px;
+         margin: 8px 0;
+         box-sizing: border-box;
+     }
+     input[type=password] {
+         width: 100%;
+         padding: 12px 20px;
+         margin: 8px 0;
+         box-sizing: border-box;
+     }
+ }
+
+ @media only screen and (min-width:320px){
+    body{
+        margin-left: 0.2em;
+    }
+     .Enter1 {
+         margin-left: 10em;
+         border: blue;
+         padding-left: 20px;
+         float: left;
+         width: 200px;
+         height: 300px;
+         display: none;
+         
+     }
+     .Enter2 {
+         
+         border: blue;
+         margin-left: 0px;
+         float: left;
+         width: 300px;
+         height: 300px;
+         
+         padding-top: 3em;
+         padding-left: 0.5em;
+         padding-right: 0.5em
+     }
+     input[type=text] {
+         width: 100%;
+         padding: 12px 20px;
+         margin: 8px 0;
+         box-sizing: border-box;
+     }
+     input[type=password] {
+         width: 100%;
+         padding: 12px 20px;
+         margin: 8px 0;
+         box-sizing: border-box;
+     }
+ }
+
+ @media only screen and (min-width:320px){
+    body{
+        margin-left: 0.2em;
+    }
+     .Enter1 {
+         margin-left: 10em;
+         border: blue;
+         padding-left: 20px;
+         float: left;
+         width: 200px;
+         height: 300px;
+         display: none;
+         
+     }
+     .Enter2 {
+         
+         border: blue;
+         margin-left: 0px;
+         float: left;
+         width: 300px;
+         height: 300px;
+        
+         padding-top: 3em;
+         padding-left: 0.5em;
+         padding-right: 0.5em
+     }
+     input[type=text] {
+         width: 100%;
+         padding: 12px 20px;
+         margin: 8px 0;
+         box-sizing: border-box;
+     }
+     input[type=password] {
+         width: 100%;
+         padding: 12px 20px;
+         margin: 8px 0;
+         box-sizing: border-box;
+     }
+ }
+
+/*medium size such as a tab*/
+@media only screen and (min-width:768px){
+    
+    .Enter1 {
+        margin-left: 10em;
+        border: blue;
+        padding-left: 20px;
+        float: left;
+        width: 200px;
+        height: 300px;
+    }
+    .Enter2 {
+        
+        border: blue;
+        margin-left: 7em;
+        float: left;
+        width: 450px;
+        height: 300px;
+        
+        padding-top: 5em;
+        padding-left: 3em;
+        padding-right: 3em
+    }
+    input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+    input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+}
+/*large size such as the computer*/
+@media only screen and (min-width:1024px){
+    
+    .Enter1 {
+        margin-left: 10em;
+        border: blue;
+        padding-left: 20px;
+        float: left;
+        width: 200px;
+        height: 300px;
+        display: block;
+    }
+    .Enter2 {
+        
+        border: blue;
+        margin-left: 20px;
+        float: left;
+        width: 450px;
+        height: 300px;
+           
+        padding-top: 5em;
+        padding-left: 3em;
+        padding-right: 3em
+    }
+    input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+    input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+}
