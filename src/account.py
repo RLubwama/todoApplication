@@ -21,5 +21,4 @@ def login(name,password):
 
 
 
-app = (__name__)
 
